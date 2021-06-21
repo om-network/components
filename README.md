@@ -10,7 +10,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 - A component shall be MIT License.
 
 ### Soft Rules
-- A component should use ui-Kit components available here (https://github.com/om-network/ui-kit)
+- A component should use ui-kit components available here (https://github.com/om-network/ui-kit)
 - A component should use headlessui react components available here (https://github.com/tailwindlabs/headlessui)
 - A component should have unit tests via Jest
 - A component should have a storybook (https://storybook.js.org/).

@@ -42,7 +42,7 @@ Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merge
 
 ### Many ways to contribute
 - Review pull requests.  Give thumb up :thumbsup: to the pull request after reviewing.
-- Perform pentests on components. Report vulnerabilities
+- Perform pentests on components and report vulnerabilities
 - Improve / fix / report bugs for existing components
 - Provide constructive feedbacks
 - Make donations (https://opencollective.com/om-network).

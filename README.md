@@ -13,6 +13,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 - A component should use Apolloclient Hooks {useQuery, useMutation} (https://github.com/apollographql/apollo-client)
 - A component should use ui-kit components available here (https://github.com/om-network/ui-kit)
 - A component should use headlessui react components available here (https://github.com/tailwindlabs/headlessui)
+ -A component should use react-hook-form (https://github.com/react-hook-form/react-hook-form)
 - A component should have unit tests via Jest (https://github.com/facebook/jest)
 - A component should have a storybook (https://storybook.js.org/).
 

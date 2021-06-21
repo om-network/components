@@ -17,20 +17,20 @@ This repository contains a collection of UI components for users of the OMN Buil
 
 ### How to contribute a component?
 - Create a thing on OM.Network
-- Convert the thing to a component type. Once converted, you will be given a component token e.g oXt7-testing
-- Click copy next to the field token to copy the token to your clipboard
+- Convert the thing to a component type. Once converted, you will be given a component `token e.g oXt7-testing`
+- Click copy next to the field token to copy the `token` to your clipboard
 - Clone this repository (om.network/components)
-- Create a new folder name {token} all lowercase letters
+- Create a new folder name `{token}` all lowercase letters
 - Once completed, submit a pull request to this repository.
 
 ### How to get started?
-- Copy the example folder
-- Rename the folder to {token}
+- Copy the `example` folder
+- Rename the folder to `{token}`
 - Start storybook yarn storybook.
 - Develop
 
 ### When can users use your components in their pages?
-Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merged, it will be included to the changelog.md under a new version. A user then compares the version number with the builder version display in the footer of {yourdomainname}/builder
+Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merged, it will be included to the changelog.md under a new version. A user then compares the version number with the builder version display in the footer of `https://{yourdomainname}/builder`
 
 ### How is a component approved?
 - Maintainers look for nots (shall nots, should nots)
@@ -38,8 +38,8 @@ Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merge
 - Maintainers look to confirm that the component work.
 
 ### Other ways you can contribute
-- Review pull requests.  Give thumb ups
+- Review pull requests.  Give thumb up :thumbsup: to the pull requests.
 - Fix bugs associated with a component
 - Report bugs associated with our site (om.network)
-- Make donations to our expenses (https://opencollective.com/om-network)
+- Make donations to our efforts (https://opencollective.com/om-network).
 

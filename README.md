@@ -40,9 +40,9 @@ Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merge
 - Maintainers look for collective consistency in codes; stylings, performance flaws, design flaws, vulnerabilities, etc...
 - Maintainers look to confirm that the component work
 
-### Other ways to contribute
+### Many ways to contribute
 - Review pull requests.  Give thumb up :thumbsup: to the pull request after reviewing.
-- Fix bugs
-- Report bugs
+- Perform pentests on components. Report vulnerabilities
+- Improve / fix / report bugs for existing components
+- Provide constructive feedbacks
 - Make donations (https://opencollective.com/om-network).
-

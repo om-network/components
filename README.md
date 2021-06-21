@@ -4,7 +4,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 - A component shall be a React component.
 - A component shall use CSS classes supported by the Tailwind CSS Project (https://github.com/tailwindlabs/tailwindcss)
 - A component shall only send / receive data from `/graphql`
-- A component shall be a Header, Section, or Footer type
+- A component shall be a `Header`, `Section`, or `Footer` type
 - A component shall consist of two subcomponents; a "read" and a "write" component.
 - A component shall only export the component presenter.
 - A component shall be MIT License.

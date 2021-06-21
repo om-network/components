@@ -3,13 +3,14 @@ This repository contains a collection of UI components for users of the OMN Buil
 ### Hard Rules
 - A component shall be a React component.
 - A component shall use CSS classes supported by the Tailwind CSS Project (https://github.com/tailwindlabs/tailwindcss)
-- A component shall use Apolloclient Hooks {useQuery, useMutation} to request data from https://om.network/graphql
+- A component shall only send / receive data from `/graphql`
 - A component shall be a Header, Section, or Footer type
 - A component shall consist of two subcomponents; a "read" and a "write" component.
 - A component shall only export the component presenter.
 - A component shall be MIT License.
 
 ### Soft Rules
+- A component should use Apolloclient Hooks {useQuery, useMutation} to request data from `/grapqhl`
 - A component should use ui-kit components available here (https://github.com/om-network/ui-kit)
 - A component should use headlessui react components available here (https://github.com/tailwindlabs/headlessui)
 - A component should have unit tests via Jest
@@ -18,12 +19,12 @@ This repository contains a collection of UI components for users of the OMN Buil
 ### How to contribute a component?
 - Create a thing on OM.Network
 - Convert the thing to a component type. Once converted, you will be given a component `token e.g oXt7-testing`
-- Click copy next to the field token to copy the `token` to your clipboard
+- Click copy next to the field token to copy the `{token}` to your clipboard
 - Clone this repository (om.network/components)
-- Create a new folder name `{token}` all lowercase letters
-- Once completed, submit a pull request to this repository.
+- Create a new folder name `{token}`
+- Once completed, submit a pull request to this repository with useful description
 
-### How to get started?
+### How to get started developing a component?
 - Copy the `example` folder
 - Rename the folder to `{token}`
 - Start storybook yarn storybook.

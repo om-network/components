@@ -35,7 +35,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 Maintainers (@thachp @lnguyenfx) review your pull request. If approved and merged, it will be included to the changelog.md under a new version. A user then compares the version number with the builder version display in the footer of `https://{yourdomainname}/builder`
 
 ### How is a component approved?
-- Maintainers look for common case scenarios.  Is the component really necessary?
+- Maintainers look for common use case scenarios.  Is the component really necessary?
 - Maintainers look for nots (shall nots, should nots).  Codes that break our hard or soft rules.
 - Maintainers look for collective consistency in codes; stylings, performance flaws, design flaws, vulnerabilities, etc...
 - Maintainers look to confirm that the component work

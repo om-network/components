@@ -27,7 +27,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 ### How to get started developing a component?
 - Copy the `example` folder
 - Rename the folder to `{token}`
-- Start storybook yarn storybook.
+- Start storybook `yarn storybook`.
 - Develop
 
 ### When can users use your components in their pages?

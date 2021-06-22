@@ -20,10 +20,11 @@ This repository contains a collection of UI components for users of the OMN Buil
 ### How to contribute a component?
 - Create a thing on OM.Network
 - Convert the thing to a component type. Once converted, you will be given a component `token e.g oXt7-testing`
-- Click copy next to the field token to copy the `{token}` to your clipboard
+- Click `copy` next to the field token to copy the `{token}` to the clipboard
 - Clone this repository (om.network/components)
-- Create a new folder name `{token}`
-- Once completed, submit a pull request to this repository with useful description
+- Create a new subfolder name `{token}` under the `/{type}` folder
+- Develop
+- Submit a pull request to this repository with useful description for review
 
 ### How to get started developing a component?
 - Copy the `example` folder

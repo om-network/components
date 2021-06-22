@@ -1,4 +1,4 @@
-This repository contains a collection of UI components for users of the OMN Builder. This project is highly experimental at this time.
+This repository contains a collection of UI components for users of the OMN Builder.
 
 ### Hard Rules
 - A component shall be a React component.
@@ -24,7 +24,7 @@ This repository contains a collection of UI components for users of the OMN Buil
 - Clone this repository (om.network/components)
 - Create a new subfolder name `{token}` under the `/{type}` folder
 - Develop
-- Submit a pull request to this repository with useful description for review
+- Submit a pull request to this repository with useful description
 
 ### How to get started developing a component?
 - Copy the `example` folder

@@ -1,0 +1,58 @@
+{
+  "name": "@om-network/components",
+  "version": "0.0.1",
+  "description": "This repository contains a collection of UI components for users of the OMN Builder.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npx rimraf ./lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/om-network/components.git"
+  },
+  "keywords": [],
+  "author": "Patrick Thach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/om-network/components/issues"
+  },
+  "homepage": "https://github.com/om-network/components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "@types/classnames": "^2.3.1",
+    "@types/lodash": "^4.14.170",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "autoprefixer": "^9",
+    "babel-loader": "^8.2.2",
+    "postcss": "^7",
+    "rimraf": "^3.0.2",
+    "sb": "^6.3.12",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "@om-network/uikit": "git+https://github.com/om-network/uikit.git",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.1",
+    "@uiw/react-md-editor": "^3.6.5",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-hook-form": "^7.6.7"
+  }
+}

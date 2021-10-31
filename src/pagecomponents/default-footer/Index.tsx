@@ -7,7 +7,7 @@ import {
     ListItemsFieldProps,
     ToolbarDivider,
 } from "@om-network/uikit";
-import React from "react";
+import * as React from "react";
 import * as Rhf from "react-hook-form";
 
 import { ComponentMode } from "../../enums/componentMode.enum";
